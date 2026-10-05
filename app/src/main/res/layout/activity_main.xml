@@ -13,7 +13,7 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="24dp"
     android:ems="10"
-    android:inputType="phone"
+    android:inputType="textMultiLine"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.409"
     app:layout_constraintStart_toEndOf="@+id/textView3"
@@ -25,7 +25,7 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="56dp"
     android:layout_marginTop="200dp"
-    android:text="Name"
+    android:text="Title"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,7 +48,7 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="56dp"
     android:layout_marginTop="60dp"
-    android:text="Phone"
+    android:text="Description"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
